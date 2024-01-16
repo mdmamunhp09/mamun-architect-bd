@@ -1,0 +1,38 @@
+/* font work sence from google fonts  */
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700;800&display=swap');
+
+  *{
+    font-family: 'Work Sans', sans-serif;
+  }
+
+  /* header seciton satart  */
+
+  header{
+    background-color: rgba(255, 144, 14, 0.10);
+  }
+
+  nav{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  nav>ul{
+    list-style: none;
+    display: flex;
+  }
+
+  nav>ul>li{
+    margin-right: 60px;
+
+  }
+
+nav>ul>li>a{
+color:  #424242;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; 
+text-decoration: none;
+}
